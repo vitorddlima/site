@@ -24,7 +24,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <Analytics router/>
+   <Analytics/>
    <RouterProvider router={router} />
   </StrictMode>
 )
